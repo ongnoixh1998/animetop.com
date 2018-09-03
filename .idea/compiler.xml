@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="web" />
+        <module name="webcorecommon" />
+        <module name="webcoredata" />
+        <module name="webcoredatadao" />
+        <module name="webcoredatadto" />
+        <module name="webcoredatapresistence" />
+        <module name="webcoreservice" />
+        <module name="webcoreutils" />
+        <module name="weblogic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webcorecommon" target="1.5" />
+      <module name="webcoredao" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

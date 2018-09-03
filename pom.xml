@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.animetop</groupId>
+    <artifactId>com.animetop</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <!--use common function-->
+        <module>web-core-common</module>
+        <module>web-core-data-dao</module>
+        <module>web-core-common</module>
+        <module>web-core-data</module>
+        <!--entity-->
+        <module>web-core-data-presistence</module>
+        <module>web-logic</module>
+
+        <module>web-core-service</module>
+        <!--web-->
+        <module>web</module>
+        <module>web-core-utils</module>
+        <!--object entity transfer-->
+        <module>web-core-data-dto</module>
+    </modules>
+
+
+</project>
